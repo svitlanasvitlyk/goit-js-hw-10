@@ -67,7 +67,7 @@ function updateDisplay({ days, hours, minutes, seconds }) {
   secondsDisplay.textContent = addLeadingZero(seconds);
 }
 
-//countdown
+//timer
 startButton.addEventListener('click', () => {
   startButton.disabled = true;
   datePicker.disabled = true;
