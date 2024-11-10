@@ -2,20 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Countdown Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css"
-    />
+    <link rel="stylesheet" href="./css/1-timer.css" />
+    <script type="module" src="./js/1-timer.js" defer></script>
   </head>
 
   <body>
+    <a href="./index.html" target="_self" rel="noopener noreferrer">Back</a>
+
     <input type="text" id="datetime-picker" />
-    <button type="button" data-start disabled>Start</button>
+
+    <button type="button" data-start>Start</button>
 
     <div class="timer">
       <div class="field">
@@ -35,9 +40,5 @@
         <span class="label">Seconds</span>
       </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
-    <script src="1-timer.js"></script>
   </body>
 </html>
